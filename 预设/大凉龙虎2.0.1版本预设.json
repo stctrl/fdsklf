@@ -95,7 +95,7 @@
           {
             "id": "b7e3248f-5032-5068-ba78-781be0e9a3b0",
             "scriptName": "✿ 草稿本·进行中（流式）",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": false,
             "findRegex": "/^((?![\\s\\S]*<\\/erii_draft>)(?=[\\s\\S]*✿ 步)[\\s\\S]*?)(?=\\n<(?:scene_card|content|erii_memo|erii_theater|erii_whisper|meanwhile|options|paper|disclaimer|UpdateVariable|update|StatusPlaceHolderImpl)\\b|$)/",
             "trimStrings": [],
@@ -112,7 +112,7 @@
           {
             "id": "f3f7fa9b-e636-58d9-a54c-adfebd9bbdb3",
             "scriptName": "✿ 草稿本",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": true,
             "findRegex": "/(?:<erii_draft>)?([\\s\\S]*?)<\\/erii_draft>/s",
             "trimStrings": [],
@@ -129,7 +129,7 @@
           {
             "id": "a4051767-04b3-50a3-871a-18b964bfb732",
             "scriptName": "✿ 灵光小剧场",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": true,
             "findRegex": "/<erii_theater>([\\s\\S]*?)<\\/erii_theater>/gs",
             "trimStrings": [],
@@ -146,7 +146,7 @@
           {
             "id": "f76d2458-6ab6-591f-a10f-1f2bdf0f77a9",
             "scriptName": "✿ 备忘",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": true,
             "findRegex": "/<erii_memo>([\\s\\S]*?)<\\/erii_memo>/gs",
             "trimStrings": [],
@@ -163,7 +163,7 @@
           {
             "id": "e92fcb30-d6cc-510e-beef-74e2b930b763",
             "scriptName": "✿ 与此同时",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": true,
             "findRegex": "/<meanwhile>([\\s\\S]*?)<\\/meanwhile>/gs",
             "trimStrings": [],
@@ -180,7 +180,7 @@
           {
             "id": "0d9c6d48-7e97-5b89-93e5-fd34b0068104",
             "scriptName": "✿ 悄悄话",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": true,
             "findRegex": "/<erii_whisper>([\\s\\S]*?)<\\/erii_whisper>/gs",
             "trimStrings": [],
@@ -197,7 +197,7 @@
           {
             "id": "d448d9bd-a666-52e4-971b-8b85f01d50d5",
             "scriptName": "✿ 悄悄话（旧版 details 格式）",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": true,
             "findRegex": "/<details>\\s*<summary>🪶 绘梨衣的悄悄话<\\/summary>([\\s\\S]*?)<\\/details>/g",
             "trimStrings": [],
@@ -214,7 +214,7 @@
           {
             "id": "erii-scene-seven-377",
             "scriptName": "✿ 时空页眉（七字段兼容）",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": true,
             "findRegex": "/(?:<scene_card>\\s*(?:［|\\[)?(?:故事内时间[ \\t]*)?|^[ \\t]*(?:\\*\\*)?(?:［|\\[)?故事内时间[ \\t]*)([^｜|\\r\\n<［］\\[\\]]{1,200}?)[ \\t]*(?:］|\\])?[ \\t]*[｜|][ \\t]*(?:［|\\[)?(?:本轮推进[ \\t]*)?([^｜|\\r\\n<［］\\[\\]]{1,200}?)[ \\t]*(?:］|\\])?[ \\t]*[｜|][ \\t]*(?:［|\\[)?(?:旬[ \\t]*)?([^｜|\\r\\n<［］\\[\\]]{1,200}?)[ \\t]*(?:］|\\])?[ \\t]*[｜|][ \\t]*(?:［|\\[)?([^｜|\\r\\n<［］\\[\\]]{1,200}?)[ \\t]*(?:］|\\])?[ \\t]*[｜|][ \\t]*(?:［|\\[)?([^｜|\\r\\n<［］\\[\\]]{1,200}?)[ \\t]*(?:］|\\])?[ \\t]*[｜|][ \\t]*(?:［|\\[)?([^｜|\\r\\n<［］\\[\\]]{1,200}?)[ \\t]*(?:］|\\])?[ \\t]*[｜|][ \\t]*(?:［|\\[)?([^｜|\\r\\n<［］\\[\\]]{1,200}?)[ \\t]*(?:］|\\])?[ \\t]*(?:\\s*<\\/scene_card>|(?:\\*\\*)?[ \\t]*$)/gm",
             "trimStrings": [],
@@ -231,7 +231,7 @@
           {
             "id": "adabd2dc-bba0-5df6-a6cd-f2253fcf952a",
             "scriptName": "✿ 时空页眉",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": true,
             "findRegex": "/<scene_card>\\s*([^｜|\\n<]*?)\\s*[｜|]\\s*([^｜|\\n<]*?)\\s*[｜|]\\s*([^｜|\\n<]*?)\\s*[｜|]\\s*([^｜|\\n<]*?)\\s*[｜|]\\s*([^｜|\\n<]*?)(?:\\s*[｜|]\\s*([^｜|\\n<]*?))?\\s*<\\/scene_card>/gs",
             "trimStrings": [],
@@ -248,7 +248,7 @@
           {
             "id": "f5fed46d-ee0a-517d-a976-374db9bcad4b",
             "scriptName": "✿ 时空页眉（自由文本兜底）",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": true,
             "findRegex": "/<scene_card>([\\s\\S]*?)<\\/scene_card>/gs",
             "trimStrings": [],
@@ -265,7 +265,7 @@
           {
             "id": "a18cfd19-51b1-515a-86b2-eb64bc1a58e8",
             "scriptName": "✿ paper 故事内载体",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": true,
             "findRegex": "/<paper(?:[^>]*?type\\s*=\\s*[\\\"']?([a-zA-Z]+)[\\\"']?)?[^>]*>([\\s\\S]*?)<\\/paper>/gis",
             "trimStrings": [],
@@ -282,7 +282,7 @@
           {
             "id": "f9d154e7-bd26-5f80-9153-a68511daa3b6",
             "scriptName": "✿ 选项栏（条数自适应）",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": true,
             "findRegex": "/<options>([\\s\\S]*?)<\\/options>/gs",
             "trimStrings": [],
@@ -299,7 +299,7 @@
           {
             "id": "83d3ab85-7770-5a3a-a96a-022683d7a321",
             "scriptName": "✿ 选项栏·旧楼折叠",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": true,
             "findRegex": "/<options>[\\s\\S]*?<\\/options>\\s*/gs",
             "trimStrings": [],
@@ -316,7 +316,7 @@
           {
             "id": "557546fe-54e3-5781-bcf2-a3070d1fe49b",
             "scriptName": "✿ 小剧场·排练中（流式）",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": false,
             "findRegex": "/<erii_theater>(?![\\s\\S]*?<\\/erii_theater>)[\\s\\S]*$/g",
             "trimStrings": [],
@@ -333,7 +333,7 @@
           {
             "id": "2ea12fa0-7b26-5005-9cc6-74163095411d",
             "scriptName": "✿ 备忘·整理中（流式）",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": false,
             "findRegex": "/<erii_memo>(?![\\s\\S]*?<\\/erii_memo>)[\\s\\S]*$/g",
             "trimStrings": [],
@@ -350,7 +350,7 @@
           {
             "id": "578ec9c2-2e36-5f9d-80f1-6ce2d5297ace",
             "scriptName": "✿ 页眉·校时中（流式）",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": false,
             "findRegex": "/<scene_card>(?![\\s\\S]*?<\\/scene_card>)[\\s\\S]*$/g",
             "trimStrings": [],
@@ -367,7 +367,7 @@
           {
             "id": "ada1c806-d56b-5d89-a49b-3b9e05073772",
             "scriptName": "✿ 与此同时·切镜中（流式）",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": false,
             "findRegex": "/<meanwhile>(?![\\s\\S]*?<\\/meanwhile>)[\\s\\S]*$/g",
             "trimStrings": [],
@@ -384,7 +384,7 @@
           {
             "id": "fb876174-1455-5628-b371-0f66cdb8e8b3",
             "scriptName": "✿ 悄悄话·写纸条中（流式）",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": false,
             "findRegex": "/<erii_whisper>(?![\\s\\S]*?<\\/erii_whisper>)[\\s\\S]*$/g",
             "trimStrings": [],
@@ -401,7 +401,7 @@
           {
             "id": "7077d3eb-491d-588a-92b0-0fb0e122c1e2",
             "scriptName": "✿ 选项·酝酿中（流式）",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": false,
             "findRegex": "/<options>(?![\\s\\S]*?<\\/options>)[\\s\\S]*$/g",
             "trimStrings": [],
@@ -418,7 +418,7 @@
           {
             "id": "cfe281cd-3e0d-57fd-82aa-355610515afb",
             "scriptName": "✿ paper·摊纸中（流式）",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": false,
             "findRegex": "/<paper(?![\\s\\S]*?<\\/paper>)[\\s\\S]*$/g",
             "trimStrings": [],
@@ -469,7 +469,7 @@
           {
             "id": "fbde7b06-1e0b-59a8-b472-1471c23a172c",
             "scriptName": "✿ 残留标签清理",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": true,
             "findRegex": "/<\\/?(erii_companion|erii_outro)>/g",
             "trimStrings": [],
@@ -503,7 +503,7 @@
           {
             "id": "8168f84e-4b7a-5fea-9510-9e6664dd5d01",
             "scriptName": "🧹 隔层清理·旧楼草稿（11 楼前·仅显示）",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": true,
             "findRegex": "/^[\\s\\S]*?<\\/erii_draft>\\s*/",
             "trimStrings": [],
@@ -520,7 +520,7 @@
           {
             "id": "858df100-7327-5e6c-91b9-aeea2b051358",
             "scriptName": "🧹 隔层清理·旧楼模块（11 楼前·显示与发送）",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": true,
             "findRegex": "/<erii_theater>[\\s\\S]*?<\\/erii_theater>|<erii_outro>[\\s\\S]*?<\\/erii_outro>|<erii_companion>[\\s\\S]*?<\\/erii_companion>|<erii_whisper>[\\s\\S]*?<\\/erii_whisper>|<meanwhile>[\\s\\S]*?<\\/meanwhile>|<options>[\\s\\S]*?<\\/options>|<scene_card>[\\s\\S]*?<\\/scene_card>|<paper[^>]*>[\\s\\S]*?<\\/paper>|<system-reminder>[\\s\\S]*?<\\/system-reminder>|<details>\\s*<summary>🪶 绘梨衣的悄悄话<\\/summary>[\\s\\S]*?<\\/details>/gsi",
             "trimStrings": [],
@@ -537,7 +537,7 @@
           {
             "id": "da910968-c97c-5429-953e-1a7634e9e583",
             "scriptName": "🧹 隔层清理·旧楼备忘（11 楼前·仅发送；开远楼备忘时脚本会关掉它）",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": true,
             "findRegex": "/<erii_memo>[\\s\\S]*?<\\/erii_memo>\\s*/gs",
             "trimStrings": [],
@@ -554,7 +554,7 @@
           {
             "id": "2c1b58f1-7a6a-5bd6-b45d-90c2a874c55b",
             "scriptName": "🧹 兜底清理·历史标签（发送）",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": true,
             "findRegex": "/<erii_draft>[\\s\\S]*?<\\/erii_draft>|<erii_theater>[\\s\\S]*?<\\/erii_theater>|<erii_outro>[\\s\\S]*?<\\/erii_outro>|<erii_companion>[\\s\\S]*?<\\/erii_companion>|<erii_whisper>[\\s\\S]*?<\\/erii_whisper>|<paper[^>]*>[\\s\\S]*?<\\/paper>|<options>[\\s\\S]*?<\\/options>|<erii_pledge>[\\s\\S]*?<\\/erii_pledge>|<nibelungen_seal>[\\s\\S]*?<\\/nibelungen_seal>|<transcription_protocol[^>]*>[\\s\\S]*?<\\/transcription_protocol>|<night_bell>[\\s\\S]*?<\\/night_bell>|```start[\\s\\S]*?```end|<system-reminder>[\\s\\S]*?<\\/system-reminder>/gsi",
             "trimStrings": [],
@@ -571,7 +571,7 @@
           {
             "id": "0741dc90-0c80-5379-af67-f1f06c1dcc0b",
             "scriptName": "🧹 草稿·历史剥离（发送）",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": true,
             "findRegex": "/^[\\s\\S]*?<\\/erii_draft>\\s*/",
             "trimStrings": [],
@@ -588,7 +588,7 @@
           {
             "id": "bcec0353-3200-58f2-a21e-1c779b68a338",
             "scriptName": "🧹 完成印记·历史剥离（发送）",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": true,
             "findRegex": "/<disclaimer>[\\s\\S]*?<\\/disclaimer>\\s*/g",
             "trimStrings": [],
@@ -605,7 +605,7 @@
           {
             "id": "6ad395f7-f406-5af5-b853-9bec965cff6c",
             "scriptName": "🧹 思考块·历史剥离（发送）",
-            "disabled": true,
+            "disabled": false,
             "runOnEdit": true,
             "findRegex": "/<(think|erii_think|thinking)>[\\s\\S]*?<\\/\\1>\\s*/g",
             "trimStrings": [],
@@ -848,7 +848,7 @@
       {
         "id": "b7e3248f-5032-5068-ba78-781be0e9a3b0",
         "scriptName": "✿ 草稿本·进行中（流式）",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": false,
         "findRegex": "/^((?![\\s\\S]*<\\/erii_draft>)(?=[\\s\\S]*✿ 步)[\\s\\S]*?)(?=\\n<(?:scene_card|content|erii_memo|erii_theater|erii_whisper|meanwhile|options|paper|disclaimer|UpdateVariable|update|StatusPlaceHolderImpl)\\b|$)/",
         "trimStrings": [],
@@ -865,7 +865,7 @@
       {
         "id": "f3f7fa9b-e636-58d9-a54c-adfebd9bbdb3",
         "scriptName": "✿ 草稿本",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": true,
         "findRegex": "/(?:<erii_draft>)?([\\s\\S]*?)<\\/erii_draft>/s",
         "trimStrings": [],
@@ -882,7 +882,7 @@
       {
         "id": "a4051767-04b3-50a3-871a-18b964bfb732",
         "scriptName": "✿ 灵光小剧场",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": true,
         "findRegex": "/<erii_theater>([\\s\\S]*?)<\\/erii_theater>/gs",
         "trimStrings": [],
@@ -899,7 +899,7 @@
       {
         "id": "f76d2458-6ab6-591f-a10f-1f2bdf0f77a9",
         "scriptName": "✿ 备忘",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": true,
         "findRegex": "/<erii_memo>([\\s\\S]*?)<\\/erii_memo>/gs",
         "trimStrings": [],
@@ -916,7 +916,7 @@
       {
         "id": "e92fcb30-d6cc-510e-beef-74e2b930b763",
         "scriptName": "✿ 与此同时",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": true,
         "findRegex": "/<meanwhile>([\\s\\S]*?)<\\/meanwhile>/gs",
         "trimStrings": [],
@@ -933,7 +933,7 @@
       {
         "id": "0d9c6d48-7e97-5b89-93e5-fd34b0068104",
         "scriptName": "✿ 悄悄话",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": true,
         "findRegex": "/<erii_whisper>([\\s\\S]*?)<\\/erii_whisper>/gs",
         "trimStrings": [],
@@ -950,7 +950,7 @@
       {
         "id": "d448d9bd-a666-52e4-971b-8b85f01d50d5",
         "scriptName": "✿ 悄悄话（旧版 details 格式）",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": true,
         "findRegex": "/<details>\\s*<summary>🪶 绘梨衣的悄悄话<\\/summary>([\\s\\S]*?)<\\/details>/g",
         "trimStrings": [],
@@ -967,7 +967,7 @@
       {
         "id": "erii-scene-seven-377",
         "scriptName": "✿ 时空页眉（七字段兼容）",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": true,
         "findRegex": "/(?:<scene_card>\\s*(?:［|\\[)?(?:故事内时间[ \\t]*)?|^[ \\t]*(?:\\*\\*)?(?:［|\\[)?故事内时间[ \\t]*)(?:至[ \\t]*)?([^｜|\\r\\n<［］\\[\\]]{1,200}?)[ \\t]*(?:］|\\])?[ \\t]*[｜|][ \\t]*(?:［|\\[)?(?:本轮推进[ \\t]*)?(?:—|([^｜|\\r\\n<［］\\[\\]]{1,200}?))[ \\t]*(?:］|\\])?[ \\t]*[｜|][ \\t]*(?:［|\\[)?(?:旬[ \\t]*)?([^｜|\\r\\n<［］\\[\\]]{1,200}?)[ \\t]*(?:］|\\])?[ \\t]*[｜|][ \\t]*(?:［|\\[)?([^｜|\\r\\n<［］\\[\\]]{1,200}?)[ \\t]*(?:］|\\])?[ \\t]*[｜|][ \\t]*(?:［|\\[)?([^｜|\\r\\n<［］\\[\\]]{1,200}?)[ \\t]*(?:］|\\])?[ \\t]*[｜|][ \\t]*(?:［|\\[)?([^｜|\\r\\n<［］\\[\\]]{1,200}?)[ \\t]*(?:］|\\])?[ \\t]*[｜|][ \\t]*(?:［|\\[)?([^｜|\\r\\n<［］\\[\\]]{1,200}?)[ \\t]*(?:］|\\])?[ \\t]*(?:\\s*<\\/scene_card>|(?:\\*\\*)?[ \\t]*$)/gm",
         "trimStrings": [],
@@ -984,7 +984,7 @@
       {
         "id": "adabd2dc-bba0-5df6-a6cd-f2253fcf952a",
         "scriptName": "✿ 时空页眉",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": true,
         "findRegex": "/<scene_card>\\s*([^｜|\\n<]*?)\\s*[｜|]\\s*([^｜|\\n<]*?)\\s*[｜|]\\s*([^｜|\\n<]*?)\\s*[｜|]\\s*([^｜|\\n<]*?)\\s*[｜|]\\s*([^｜|\\n<]*?)(?:\\s*[｜|]\\s*([^｜|\\n<]*?))?\\s*<\\/scene_card>/gs",
         "trimStrings": [],
@@ -1001,7 +1001,7 @@
       {
         "id": "f5fed46d-ee0a-517d-a976-374db9bcad4b",
         "scriptName": "✿ 时空页眉（自由文本兜底）",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": true,
         "findRegex": "/<scene_card>([\\s\\S]*?)<\\/scene_card>/gs",
         "trimStrings": [],
@@ -1018,7 +1018,7 @@
       {
         "id": "a18cfd19-51b1-515a-86b2-eb64bc1a58e8",
         "scriptName": "✿ paper 故事内载体",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": true,
         "findRegex": "/<paper(?:[^>]*?type\\s*=\\s*[\\\"']?([a-zA-Z]+)[\\\"']?)?[^>]*>([\\s\\S]*?)<\\/paper>/gis",
         "trimStrings": [],
@@ -1035,7 +1035,7 @@
       {
         "id": "f9d154e7-bd26-5f80-9153-a68511daa3b6",
         "scriptName": "✿ 选项栏（条数自适应）",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": true,
         "findRegex": "/<options>([\\s\\S]*?)<\\/options>/gs",
         "trimStrings": [],
@@ -1052,7 +1052,7 @@
       {
         "id": "83d3ab85-7770-5a3a-a96a-022683d7a321",
         "scriptName": "✿ 选项栏·旧楼折叠",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": true,
         "findRegex": "/<options>[\\s\\S]*?<\\/options>\\s*/gs",
         "trimStrings": [],
@@ -1069,7 +1069,7 @@
       {
         "id": "557546fe-54e3-5781-bcf2-a3070d1fe49b",
         "scriptName": "✿ 小剧场·排练中（流式）",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": false,
         "findRegex": "/<erii_theater>(?![\\s\\S]*?<\\/erii_theater>)[\\s\\S]*$/g",
         "trimStrings": [],
@@ -1086,7 +1086,7 @@
       {
         "id": "2ea12fa0-7b26-5005-9cc6-74163095411d",
         "scriptName": "✿ 备忘·整理中（流式）",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": false,
         "findRegex": "/<erii_memo>(?![\\s\\S]*?<\\/erii_memo>)[\\s\\S]*$/g",
         "trimStrings": [],
@@ -1103,7 +1103,7 @@
       {
         "id": "578ec9c2-2e36-5f9d-80f1-6ce2d5297ace",
         "scriptName": "✿ 页眉·校时中（流式）",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": false,
         "findRegex": "/<scene_card>(?![\\s\\S]*?<\\/scene_card>)[\\s\\S]*$/g",
         "trimStrings": [],
@@ -1120,7 +1120,7 @@
       {
         "id": "ada1c806-d56b-5d89-a49b-3b9e05073772",
         "scriptName": "✿ 与此同时·切镜中（流式）",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": false,
         "findRegex": "/<meanwhile>(?![\\s\\S]*?<\\/meanwhile>)[\\s\\S]*$/g",
         "trimStrings": [],
@@ -1137,7 +1137,7 @@
       {
         "id": "fb876174-1455-5628-b371-0f66cdb8e8b3",
         "scriptName": "✿ 悄悄话·写纸条中（流式）",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": false,
         "findRegex": "/<erii_whisper>(?![\\s\\S]*?<\\/erii_whisper>)[\\s\\S]*$/g",
         "trimStrings": [],
@@ -1154,7 +1154,7 @@
       {
         "id": "7077d3eb-491d-588a-92b0-0fb0e122c1e2",
         "scriptName": "✿ 选项·酝酿中（流式）",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": false,
         "findRegex": "/<options>(?![\\s\\S]*?<\\/options>)[\\s\\S]*$/g",
         "trimStrings": [],
@@ -1171,7 +1171,7 @@
       {
         "id": "cfe281cd-3e0d-57fd-82aa-355610515afb",
         "scriptName": "✿ paper·摊纸中（流式）",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": false,
         "findRegex": "/<paper(?![\\s\\S]*?<\\/paper>)[\\s\\S]*$/g",
         "trimStrings": [],
@@ -1222,7 +1222,7 @@
       {
         "id": "fbde7b06-1e0b-59a8-b472-1471c23a172c",
         "scriptName": "✿ 残留标签清理",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": true,
         "findRegex": "/<\\/?(erii_companion|erii_outro)>/g",
         "trimStrings": [],
@@ -1256,7 +1256,7 @@
       {
         "id": "8168f84e-4b7a-5fea-9510-9e6664dd5d01",
         "scriptName": "🧹 隔层清理·旧楼草稿（11 楼前·仅显示）",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": true,
         "findRegex": "/^[\\s\\S]*?<\\/erii_draft>\\s*/",
         "trimStrings": [],
@@ -1273,7 +1273,7 @@
       {
         "id": "858df100-7327-5e6c-91b9-aeea2b051358",
         "scriptName": "🧹 隔层清理·旧楼模块（11 楼前·显示与发送）",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": true,
         "findRegex": "/<erii_theater>[\\s\\S]*?<\\/erii_theater>|<erii_outro>[\\s\\S]*?<\\/erii_outro>|<erii_companion>[\\s\\S]*?<\\/erii_companion>|<erii_whisper>[\\s\\S]*?<\\/erii_whisper>|<meanwhile>[\\s\\S]*?<\\/meanwhile>|<options>[\\s\\S]*?<\\/options>|<scene_card>[\\s\\S]*?<\\/scene_card>|<paper[^>]*>[\\s\\S]*?<\\/paper>|<system-reminder>[\\s\\S]*?<\\/system-reminder>|<details>\\s*<summary>🪶 绘梨衣的悄悄话<\\/summary>[\\s\\S]*?<\\/details>/gsi",
         "trimStrings": [],
@@ -1290,7 +1290,7 @@
       {
         "id": "da910968-c97c-5429-953e-1a7634e9e583",
         "scriptName": "🧹 隔层清理·旧楼备忘（11 楼前·仅发送；开远楼备忘时脚本会关掉它）",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": true,
         "findRegex": "/<erii_memo>[\\s\\S]*?<\\/erii_memo>\\s*/gs",
         "trimStrings": [],
@@ -1307,7 +1307,7 @@
       {
         "id": "2c1b58f1-7a6a-5bd6-b45d-90c2a874c55b",
         "scriptName": "🧹 兜底清理·历史标签（发送）",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": true,
         "findRegex": "/<erii_draft>[\\s\\S]*?<\\/erii_draft>|<erii_theater>[\\s\\S]*?<\\/erii_theater>|<erii_outro>[\\s\\S]*?<\\/erii_outro>|<erii_companion>[\\s\\S]*?<\\/erii_companion>|<erii_whisper>[\\s\\S]*?<\\/erii_whisper>|<paper[^>]*>[\\s\\S]*?<\\/paper>|<options>[\\s\\S]*?<\\/options>|<erii_pledge>[\\s\\S]*?<\\/erii_pledge>|<nibelungen_seal>[\\s\\S]*?<\\/nibelungen_seal>|<transcription_protocol[^>]*>[\\s\\S]*?<\\/transcription_protocol>|<night_bell>[\\s\\S]*?<\\/night_bell>|```start[\\s\\S]*?```end|<system-reminder>[\\s\\S]*?<\\/system-reminder>/gsi",
         "trimStrings": [],
@@ -1324,7 +1324,7 @@
       {
         "id": "0741dc90-0c80-5379-af67-f1f06c1dcc0b",
         "scriptName": "🧹 草稿·历史剥离（发送）",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": true,
         "findRegex": "/^[\\s\\S]*?<\\/erii_draft>\\s*/",
         "trimStrings": [],
@@ -1341,7 +1341,7 @@
       {
         "id": "bcec0353-3200-58f2-a21e-1c779b68a338",
         "scriptName": "🧹 完成印记·历史剥离（发送）",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": true,
         "findRegex": "/<disclaimer>[\\s\\S]*?<\\/disclaimer>\\s*/g",
         "trimStrings": [],
@@ -1358,7 +1358,7 @@
       {
         "id": "6ad395f7-f406-5af5-b853-9bec965cff6c",
         "scriptName": "🧹 思考块·历史剥离（发送）",
-        "disabled": true,
+        "disabled": false,
         "runOnEdit": true,
         "findRegex": "/<(think|erii_think|thinking)>[\\s\\S]*?<\\/\\1>\\s*/g",
         "trimStrings": [],
