@@ -1944,11 +1944,11 @@
         },
         {
           "identifier": "opt_game_mode_ordeal",
-          "enabled": false
+          "enabled": true
         },
         {
           "identifier": "opt_game_mode_bite",
-          "enabled": true
+          "enabled": false
         },
         {
           "identifier": "opt_game_mode_god",
