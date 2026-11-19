@@ -1939,11 +1939,11 @@
           "enabled": false
         },
         {
-          "identifier": "opt_game_mode_ordeal",
+          "identifier": "opt_game_mode_hard",
           "enabled": false
         },
         {
-          "identifier": "opt_game_mode_hard",
+          "identifier": "opt_game_mode_ordeal",
           "enabled": false
         },
         {
